@@ -1,5 +1,7 @@
 package menu;
+
 import java.util.Scanner;
+
 public class Menu {
     private static Scanner teclado = new Scanner(System.in);
     
@@ -10,6 +12,7 @@ public class Menu {
         System.out.print ("Operando 2: ");
         ret [1] = teclado.nextInt();
         return ret;
+        
     }
     
     public String menuOpciones() {
